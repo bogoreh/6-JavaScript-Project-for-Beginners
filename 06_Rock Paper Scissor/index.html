@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- uppercase or lowercase it's same-->
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Web Development" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Abdibogoreh" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="abdi.jpg" />
+    <link rel="stylesheet" media="screen" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" media="screen" type="text/css" href="css/modal.css" />
+    <script src="https://kit.fontawesome.com/fed8b7d603.js" crossorigin="anonymous"></script>
+    <title>Abdibogoreh</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Rock Paper Scissors</h1>
+            <button id="restart" class="restart-btn">Restart Game</button>
+            <div id="score" class="score">
+                <p>Player: 0</p>
+                <p>Computer: 0</p>
+            </div>
+        </header>
+        <h2>Make Your Selection</h2>
+        <div class="choices">
+            <i id="rock" class="choice fas fa-hand-rock fa-10x"></i>
+            <i id="paper" class="choice fas fa-hand-paper fa-10x"></i>
+            <i id="scissors" class="choice fas fa-hand-scissors fa-10x"></i>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal">
+        <div id="result" class="modal-content">
+            <!-- 
+            <h1 class="text-win">You Win</h1>
+            <i class="fas fa-hand-rock fa-10x"></i>
+            <p>Computer Chose Rock</p>
+            -->
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
